@@ -37,18 +37,16 @@ pip para la instalación de paquetes
 Configuración del Entorno
 ### Clona este repositorio en tu máquina local:
 
-```bash
-git clone https://github.com/tu_usuario/tu_repositorio.git
-cd tu_repositorio
+`bash`
+`git clone https://github.com/tu_usuario/tu_repositorio.git`
+`cd tu_repositorio`
 Crea y activa un entorno virtual (opcional pero recomendado):
-```bash
-Copiar código
-python -m venv venv
-source venv/bin/activate  # En Windows: venv\Scripts\activate
+`bash`
+```python -m venv venv
+source venv/bin/activate  # En Windows: venv\Scripts\activate```
 Instala las dependencias necesarias:
-```bash
-Copiar código
-pip install -r requirements.txt
+`bash`
+`pip install -r requirements.txt`
 Archivos y Directorios
 data/: Contiene los datos crudos y procesados. Los datos sin procesar deben colocarse en data/raw/, y los datos procesados se guardarán en data/processed/ después de la ejecución del preprocesamiento.
 notebooks/: Contiene notebooks de Jupyter. El 00_data_download.ipynb es el punto de partida para ejecutar el flujo completo.
