@@ -24,9 +24,10 @@ desafio_meli/
 │   ├── 01_eda_meli.ipynb      # Análisis exploratorio de los datos
 │   └── 02_model_meli.ipynb    # Desarrollo del modelo de predicción (`sold_quantity`)
 └── requirements.txt           # Lista de dependencias para reproducir el proyecto
+```
 
 Por cuestiones de tamaño la carpeta data se encuentra en este enlace:
-https://drive.google.com/drive/folders/1pFmz8HirpVKNSwftCqY9nc9p_RohIchA?usp=share_link
+[data](https://drive.google.com/drive/folders/1pFmz8HirpVKNSwftCqY9nc9p_RohIchA?usp=share_link)
 
 ## Requisitos del Sistema
 Antes de comenzar, asegúrate de tener instalado lo siguiente:
@@ -40,32 +41,34 @@ Configuración del Entorno
 `bash`
 `git clone https://github.com/tu_usuario/tu_repositorio.git`
 `cd tu_repositorio`
-Crea y activa un entorno virtual (opcional pero recomendado):
+### Crea y activa un entorno virtual (opcional pero recomendado):
 `bash`
 ```python -m venv venv
-source venv/bin/activate  # En Windows: venv\Scripts\activate```
-Instala las dependencias necesarias:
+source venv/bin/activate  # En Windows: venv\Scripts\activate
+```
+### Instala las dependencias necesarias:
 `bash`
 `pip install -r requirements.txt`
-Archivos y Directorios
+
+### Archivos y Directorios
 data/: Contiene los datos crudos y procesados. Los datos sin procesar deben colocarse en data/raw/, y los datos procesados se guardarán en data/processed/ después de la ejecución del preprocesamiento.
 notebooks/: Contiene notebooks de Jupyter. El 00_data_download.ipynb es el punto de partida para ejecutar el flujo completo.
 
-Instrucciones para la Ejecución
-
+### Instrucciones para la Ejecución
+- Download Data:
 Se ejecuta el 00_data_download.ipynb para conseguir los datos
-Analisis exploratorio:
+- Analisis exploratorio:
 El notebook 01_eda_meli.ipynb al correr todas la celdas obtienes el analisis exploratorio
-Entrenamiento del Modelo:
+- Entrenamiento del Modelo:
 El notebook 02_model_meli.ipynb también incluye pasos para entrenar modelos de Random Forest y Xgboost. 
 
 
-Troubleshooting
+### Troubleshooting
 Si encuentras problemas con las dependencias, asegúrate de que todas las versiones de las librerías estén actualizadas según lo especificado en requirements.txt.
 
-Contribuciones
+### Contribuciones
 Si deseas contribuir a este proyecto, por favor abre un Pull Request o un Issue en GitHub para discutir cambios importantes.
 
-Licencia
+### Licencia
 Este proyecto está bajo la Licencia MIT - mira el archivo LICENSE para más detalles.
 
